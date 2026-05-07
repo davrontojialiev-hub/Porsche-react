@@ -1,8 +1,20 @@
-import React from 'react'
+import Header from "./component/Header"
+import Banner from "./component/Banner"
+import Car from "./component/Car"
+import Gallery from "./component/Gallery"
+import About from "./component/About"
+import Footer from "./component/Footer"
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <Header />
+      <Banner />
+      <Car />
+      <Gallery />
+      <About />
+      <Footer />
+    </>
   )
 }
 

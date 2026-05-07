@@ -1,0 +1,255 @@
+ 
+*{ 
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif; 
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+
+body { 
+  background: #141414;
+  color: #F0F0F0;
+} 
+          
+.header{
+  padding: 10px 0;
+}
+
+.container {
+  max-width: 1140px;
+width: 100%;
+height: 100%;
+margin: 0 auto;
+padding: 0 15px;
+}
+
+.header__nav {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav-list {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.header__nav-list_item-link {
+  color: #F0F0F0;
+  font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 16px;
+}
+
+
+.banner{
+  height: 748px;
+  background: url("/bg.png") no-repeat center bottom / cover;
+}
+
+.banner__wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.banner__title {
+  font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 140px;
+color: #B31D1E;
+}
+
+.banner__link{
+  display: inline-block;
+  max-width: 265px;
+  width: 100%;
+  padding: 18px; 
+  background: linear-gradient(93.34deg, #FFA600 0%, #E41818 100%);
+  text-align: center; 
+  font-family: "Montserrat", sans-serif;
+font-weight: 800;
+font-size: 24px;
+color: #141414;
+border-radius: 4px;
+transition: 0.3s;
+}
+
+.banner__link:hover {
+  color: #F0F0F0;
+  background: linear-gradient(93.34deg, #E41818 0%,  #FFA600 100%);
+}
+
+.car {
+  margin: 114px 0 164px;
+}
+
+.car__wrap {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.car__left{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 540px;
+  width: 100%;
+}
+
+.car__left-title{
+  font-family: "Montserrat", sans-serif;
+font-weight: 700;
+font-size: 40px;
+color: #EB3A13;
+}
+
+.car__left-desc{
+   font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 20px;
+color: #F0F0F0;
+}
+
+.car__right{
+  max-width: 540px;
+  width: 100%;
+}
+
+.car__right img {
+  width: 100%;
+}
+
+.gallery{
+  margin-bottom: 180px;
+}
+
+.gallery__title{
+  font-family: "Montserrat", sans-serif;
+font-weight: 700;
+font-size: 40px;
+color: #EB3A13;
+margin-bottom: 30px;
+}
+.gallery__wrap{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.gallery__img{
+  flex: 0 0 calc(50% - 15px);
+}
+
+.gallery-Bigimg {
+  flex: 0 0 100px;
+}
+
+.gallery-Bigimg img {
+  width: 100%;
+}
+
+
+.about{
+  margin-bottom: 120px;
+}
+
+.about__wrap{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 152px;
+}
+
+.about__title{
+  font-family: "Montserrat", sans-serif;
+font-weight: 700;
+font-size: 40px;
+color: #EB3A13;
+}
+
+.about__desc{
+   font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 20px;
+color: #F0F0F0;
+}
+
+.about__img img{
+  width: 100%;
+}
+
+.footer{
+  padding: 38px 0  62px;
+  background: #1F1F1F;
+}
+
+.footer__nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__nav-form{
+  max-width: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer__nav-form_input{
+  border: none;
+  outline: none;
+  background: none;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #F0F0F0;
+  font-family: "Fustat", sans-serif;
+font-weight: 500;
+font-size: 14px;
+color: #F0F0F0;
+ }
+
+ .footer__nav-form_btn{
+  border: none;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 14px;
+padding: 10px;
+margin-top: 22px;
+background: linear-gradient(93.34deg,  #FFA600 0%, #E41818 100% );
+color: #F0F0F0;
+ }
+
+ .footer__nav-right{
+  display: flex;
+  gap: 52px;
+  align-items: flex-start;
+ }
+ 
+ .footer__nav-list{
+ display: flex;
+ gap: 30px;
+ flex-direction: column; 
+ }
+
+.footer__nav-list_title{
+  font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 16px;
+}
+
+.footer__nav-list_item-link{
+   font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 14px;
+color: #F0F0F0;
+}
